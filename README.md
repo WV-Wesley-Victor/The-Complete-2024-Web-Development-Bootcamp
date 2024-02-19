@@ -2,7 +2,9 @@
 Welcome to the "The Complete 2024 Web Development Bootcamp" course repository. This comprehensive web development course is designed to provide a comprehensive learning experience, from fundamental concepts to the most advanced technologies in the field. This repository serves as an essential guide for all students looking to improve their web development skills.
 
 <div align="center">
+  
 ![1565838_e54e_18](https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp/assets/137107062/5eff19f8-6d02-4595-83db-9258fcca384b)
+
 </div>
 <p align="center">
   <a href="https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp" target="_blank">Click here to access the course repository.</a>
