@@ -7,7 +7,7 @@ Welcome to the "The Complete 2024 Web Development Bootcamp" course repository. T
 
 </div>
 <p align="center">
-  <a href="https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp" target="_blank">Click here to access the course repository.</a>
+  <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">Click here to access the course.</a>
 </p>
 
 ## Course Description
