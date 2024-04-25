@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+  }
+.poster {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.motivation-img {
+    border: 5px solid white;
+    width: 100%;
+}
