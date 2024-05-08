@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Javascript to Websites</title>
+</head>
+
+<body onload="document.querySelector('h3').innerHTML = 'Inline JavaScript';">
+    <h1>External</h1>
+    <h2>Internal</h2>
+    <h3>Inline</h3>
+    <script>
+        document.querySelector("h2").innerHTML = "Internal Javascript";
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

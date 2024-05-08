@@ -1,4 +1,4 @@
-var number = 15;
+var number = 1;
 
 function fibonacciGenerator(n) {
     var sequenceOfNumbers = [];
