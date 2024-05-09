@@ -15,19 +15,33 @@ footer {
   font-family: sans-serif;
 }
 
-.w {}
+.w {
+  background-image: url(./images/tom1.png);
+}
 
-.a {}
+.a {
+  background-image: url(./images/tom2.png);
+}
 
-.s {}
+.s {
+  background-image: url(./images/tom3.png);
+}
 
-.d {}
+.d {
+  background-image: url(./images/tom4.png);
+}
 
-.j {}
+.j {
+  background-image: url(./images/snare.png);
+}
 
-.k {}
+.k {
+  background-image: url(./images/crash.png);
+}
 
-.l {}
+.l {
+  background-image: url(./images/kick.png);
+}
 
 .set {
   margin: 10% auto;
