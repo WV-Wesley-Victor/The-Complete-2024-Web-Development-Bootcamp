@@ -1,0 +1,16 @@
+Here's a summary of the Unix commands listed:
+
+01 - mkdir name: Creates a new directory with the specified name.
+02 - pwd: Prints the current working directory.
+03 - ls: Lists the files and directories in the current directory.
+04 - cd path: Navigates to the specified directory.
+05 - cd ~: Navigates to the root directory of the current user.
+06 - cd ..: Navigates one level up in the directory.
+07 - touch name: Creates a new file with the specified name.
+08 - start name: Starts a program or opens a file (may vary depending on the Unix system).
+09 - rm name: Removes the specified file.
+10 - rm -r name: Removes a directory and its contents recursively.
+11 - rm *: Removes all files in the current directory.
+12 - Up/Down arrows: Accesses previously typed commands.
+13 - Alt + mouse: Selects text with the mouse while pressing "Alt".
+14 - Ctrl + u: Deletes the entire line currently being typed in the terminal.
