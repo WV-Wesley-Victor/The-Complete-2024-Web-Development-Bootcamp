@@ -25,14 +25,18 @@
 
 
 
-const fs = require("fs");
+// Writing to a file:
+const fs = require('fs');
 
-fs.writeFile("message.txt", "Hello Node", (err) => {
-  if (err) throw err;
-  console.log("The file has been saved!");
-});
+// File path to write
+const filePath = 'file.txt';
+const content = 'Content to be written into the file.';
 
-fs.readFile("message.txt", "utf8", (err, data) => {
-  if (err) throw err;
-  console.log(data);
+// Writing to the file asynchronously
+fs.writeFile(filePath, content, 'utf8', (err) => {
+    if (err) {
+        console.error('Error writing to the file:', err);
+        return;
+    }
+    console.log('File has been written successfully!');
 });

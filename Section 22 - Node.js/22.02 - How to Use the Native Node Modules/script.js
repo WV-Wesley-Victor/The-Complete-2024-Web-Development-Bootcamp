@@ -1,20 +1,61 @@
-// Import the 'fs' (File System) module from Node.js to handle file system operations.
+// The FS (File System) is a module in Node.js used to manipulate files and directories in the computer's file system. It allows reading, writing, creating, deleting, and manipulating files and directories synchronously or asynchronously. It's essential for Node.js applications that need to handle file storage and manipulation.
+// Writing to a file:
 const fs = require("fs");
 
-// Write a file named "message.txt" with the content "Hello World".
-// The callback function is called when the operation is completed or an error occurs.
-fs.writeFile("message.txt", "Hello Wolrd", (err) => {
-    // Check if there's any error. If so, throw an exception.
-    if (err) throw err;
-    // If there are no errors, log a message indicating that the file has been saved successfully.
-    console.log("The file has been saved!");
+// File path to write
+const filePath = "file.txt";
+const content = "Content to be written into the file.";
+
+// Writing to the file asynchronously
+fs.writeFile(filePath, content, "utf8", (err) => {
+    if (err) {
+        console.error("Error writing to the file:", err);
+        return;
+    }
+    console.log("File has been written successfully!");
 });
 
-// Read the file "message.txt" with encoding "utf8" (Unicode-friendly 8-bit character encoding).
-// The callback function is called when the reading is completed or an error occurs.
-fs.readFile("./message.txt", "utf8", (err, data) => {
-    // Check if there's any error. If so, throw an exception.
-    if (err) throw err;
-    // If there are no errors, log the content of the read file.
-    console.log(data);
-});
+// // Reading a file:
+// const fs = require("fs");
+
+// // File path to read
+// const filePath = "file.txt";
+
+// // Reading the file asynchronously
+// fs.readFile(filePath, "utf8", (err, data) => {
+//     if (err) {
+//         console.error("Error reading the file:", err);
+//         return;
+//     }
+//     console.log("File content:", data);
+// });
+
+// // Deleting a file:
+// const fs = require("fs");
+
+// // File path to delete
+// const filePath = "file.txt";
+
+// // Deleting the file asynchronously
+// fs.unlink(filePath, (err) => {
+//     if (err) {
+//         console.error("Error deleting the file:", err);
+//         return;
+//     }
+//     console.log("File deleted successfully!");
+// });
+
+// // Checking file existence:
+// const fs = require("fs");
+
+// // File path to check
+// const filePath = "file.txt";
+
+// // Checking file existence
+// fs.access(filePath, fs.constants.F_OK, (err) => {
+//     if (err) {
+//         console.error("The file does not exist.");
+//         return;
+//     }
+//     console.log("The file exists.");
+// });
