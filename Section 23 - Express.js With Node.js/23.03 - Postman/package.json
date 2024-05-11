@@ -1,0 +1,25 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Postman is a powerful API client that simplifies the process of testing, documenting, and debugging APIs. This package.json sets up a basic Node.js environment with Express for API development",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "Server",
+    "Web Development"
+  ],
+  "author": "Wesley Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
