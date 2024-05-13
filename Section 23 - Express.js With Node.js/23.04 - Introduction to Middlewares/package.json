@@ -1,0 +1,27 @@
+{
+  "name": "introduction-to-middlewares",
+  "version": "1.0.0",
+  "description": "This package contains examples and tutorials on using middlewares in Express applications with Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "Server",
+    "Web Development"
+  ],
+  "author": "Wesley Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
