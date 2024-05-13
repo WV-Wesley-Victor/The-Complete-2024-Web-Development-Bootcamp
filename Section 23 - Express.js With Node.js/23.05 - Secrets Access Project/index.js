@@ -22,6 +22,4 @@ app.post("/check", (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
-});
+app.use(bodyParser.urlencoded({ extended: true }));app.use(bodyParser.urlencoded({ extended: true }));

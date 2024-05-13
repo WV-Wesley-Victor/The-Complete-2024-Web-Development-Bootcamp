@@ -1,0 +1,26 @@
+{
+  "name": "what-is-ejs",
+  "version": "1.0.0",
+  "description": "A simple npm package that provides an introduction to EJS (Embedded JavaScript), a templating language for Node.js and web development.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "Server",
+    "Web Development"
+  ],
+  "author": "Wesley Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
