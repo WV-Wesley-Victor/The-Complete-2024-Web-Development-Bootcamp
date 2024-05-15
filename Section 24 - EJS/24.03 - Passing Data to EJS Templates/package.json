@@ -1,14 +1,24 @@
 {
-  "name": "4.2-passing-data",
+  "name": "passing-data-to-ejs-templates",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple example of how to pass data to EJS templates in an Express application.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Express",
+    "Node.js",
+    "Server",
+    "Web Development",
+    "EJS"
+  ],
+  "author": "Wesley Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
