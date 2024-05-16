@@ -4,10 +4,7 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 
-app.use(express.static("public"))
-
-
-
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
@@ -15,12 +12,12 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submit", (req, res) => {
-  const firstName = adj[Math.floor(Math.random() * adj.length)]
-  const secondName = noun[Math.floor(Math.random() * noun.length)]
-  res.render("index.ejs",{
+  const firstName = adj[Math.floor(Math.random() * adj.length)];
+  const secondName = noun[Math.floor(Math.random() * noun.length)];
+  res.render("index.ejs", {
     adj: firstName,
-    noun: secondName
-  })
+    noun: secondName,
+  });
 });
 
 app.listen(port, () => {
