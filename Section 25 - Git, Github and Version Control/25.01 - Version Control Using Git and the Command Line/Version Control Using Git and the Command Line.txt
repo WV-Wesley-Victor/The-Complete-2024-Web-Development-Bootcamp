@@ -1,1 +1,15 @@
-It was the best of times, it was the worst of time.
+Git Commands
+    1. Initial Configuration:
+        .git config --global user.name "Your Name": Sets the user name.
+        .git config --global user.email "your.email@example.com": Sets the user email.
+    2. Creating and Initializing a Repository:
+        .git init: Initializes a new Git repository.
+        .git clone <URL>: Clones an existing repository.
+    3. Status and Log:
+        .git status: Checks the status of files in the repository.
+        .git log: Displays the commit history.
+    4. Working with Files:
+        .git add <file>: Adds a specific file to the staging area.
+        .git add .: Adds all modified files to the staging area.
+        .git commit -m "commit message": Commits the changes in the staging area with a descriptive message.
+        .git rm <file>: Removes a file from the repository and the staging area.
