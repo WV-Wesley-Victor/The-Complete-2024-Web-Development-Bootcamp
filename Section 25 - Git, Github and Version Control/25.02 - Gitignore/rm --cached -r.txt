@@ -1,0 +1,1 @@
+The git rm --cached -r command. removes all tracked files from the Git index (or staging area), but does not remove them from the local file system.

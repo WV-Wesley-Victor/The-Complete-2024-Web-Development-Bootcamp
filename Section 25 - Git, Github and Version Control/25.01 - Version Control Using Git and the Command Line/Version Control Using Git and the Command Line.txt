@@ -13,3 +13,15 @@ Git Commands
         .git add .: Adds all modified files to the staging area.
         .git commit -m "commit message": Commits the changes in the staging area with a descriptive message.
         .git rm <file>: Removes a file from the repository and the staging area.
+    5. Branches:
+        .git branch: Lists branches in the repository.
+        .git branch <branch-name>: Creates a new branch.
+        .git checkout <branch-name>: Switches to the specified branch.
+        .git merge <branch-name>: Merges the specified branch into the current branch.
+    6. Updating and Synchronizing:
+        .git fetch: Downloads changes from a remote repository without merging.
+        .git pull: Downloads and merges changes from a remote repository.
+        .git push: Sends commits to a remote repository.
+    7. Undoing Changes:
+        .git reset <file>: Removes the file from the staging area.
+        .git reset --hard <commit>: Resets the history and changes in the working directory to a specific commit.
