@@ -1,0 +1,24 @@
+{
+  "name": "gitignore",
+  "version": "1.0.0",
+  "description": "I am learning git",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Web Development"
+  ],
+  "author": "Wesley Victor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WV-Wesley-Victor/The-Complete-2024-Web-Development-Bootcamp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "superheroes": "^3.0.0"
+  }
+}
