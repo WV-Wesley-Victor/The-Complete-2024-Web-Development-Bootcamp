@@ -1,0 +1,6 @@
+.git branch name: Creates a new branch called name.
+.git branch: Lists all local branches.
+.git checkout name: Switches to the branch called name.
+.git merge name: Merges the branch name into the current branch.
+.q!: Exits the vim editor without saving changes.
+.git push origin main -u: Pushes the main branch to the remote repository origin and sets origin/main as upstream.
